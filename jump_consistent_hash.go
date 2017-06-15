@@ -5,7 +5,6 @@ func Slot(k uint64, n int) uint32 {
 		n = 1
 	}
 	var b, j int64
-	b = -1
 	for j < int64(n) {
 		b = j
 		k = k*2862933555777941757 + 1
